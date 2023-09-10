@@ -1,13 +1,17 @@
 import React from 'react';
+import "./Header.css";
+import Logo from "./../../images/Logo.svg"
 
 const Header = () => {
     return (
         <div className='header'>
-            <h1>Header</h1>
-            <a href="1">1</a>
-            <a href="2">2</a>
-            <a href="3">3</a>
-            <a href="4">4</a> 
+            <img src={Logo} alt="" />
+            <nav>
+                <a href="/shop">Shop</a>
+                <a href="/order">Order</a>
+                <a href="/invertory">Invertory</a>
+                <a href="/login">Login</a>
+            </nav>
         </div>
     );
 };
