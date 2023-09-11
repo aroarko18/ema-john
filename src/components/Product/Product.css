@@ -54,7 +54,11 @@
     position: absolute;
     bottom: 0;
 }
+.add-cart span{
+    margin-left: 5px;
+}
 .add-cart:hover{
     color: white;
     background-color: orange;
 }
+

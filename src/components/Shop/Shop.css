@@ -5,5 +5,5 @@
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 118px 104px 0 82px ;
+    margin: 120px 104px 0 82px ;
 }
